@@ -1,0 +1,5 @@
+/vendor
+/.vscode
+/.idea
+/logs/nginx/*
+.phpunit.result.cache
