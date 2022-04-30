@@ -14,6 +14,7 @@ Required requisites:
 1. [Git](https://git-scm.com/book/en/Getting-Started-Installing-Git)
 2. [Docker](https://docs.docker.com/engine/installation/)
 3. [Docker Compose](https://docs.docker.com/compose/install/)
+4. [Composer](https://getcomposer.org)
 
 Docker and Docker Compose can be installed with [Docker Desktop](https://www.docker.com/products/docker-desktop/) app.
 
@@ -31,13 +32,13 @@ git clone https://github.com/volkar/docker-clean-nginx-php-postgres.git
 cd /path/to/docker-clean-nginx-php-postgres
 ```
 
-3. Update and install composer packages
+3. Update and install Composer packages
 
 ```
 composer update
 ```
 
-4. Build and up project with Socker Compose
+4. Build and up project with Docker Compose
 
 ```
 docker-compose up -d --build
@@ -47,7 +48,7 @@ docker-compose up -d --build
 
 ## Using
 
-### Using Docker Composer
+### Using Docker Compose
 
 Build and up:
 
