@@ -1,6 +1,4 @@
-# docker-clean-nginx-php-postgres
-
-Minimal clean Docker configuration with PHP 8.1+, NGINX 1.20+ and PostgreSQL 14.2+ for development.
+# Minimal clean Docker configuration with PHP 8.1+, NGINX 1.20+ and PostgreSQL 14.2+ for development.
 
 - Based on Alpine Linux.
 - PHP modules for Symfony 6 installation.
